@@ -5,7 +5,7 @@ import re
 
 st.set_page_config(
     page_title='GFG Campus Body HVPM COET Certificates',
-    page_icon='assets/favicon.png',
+    page_icon='favicon.png',
     layout='wide'
 )
 
