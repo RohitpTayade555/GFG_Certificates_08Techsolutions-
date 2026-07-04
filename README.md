@@ -35,3 +35,80 @@ gfg_certificates-main/
 ├── pyproject.toml           # Modern package configuration metadata
 ├── uv.lock                  # Pinned deterministic dependencies
 └── README.md                # System documentation
+
+# ⚙️ How to Run
+
+### Clone Repository
+
+```bash
+git clone https://github.com/RohitTayade555/GFG_Certificates_08Techsolutions-.git
+```
+
+### Open Folder
+
+```bash
+cd GFG_Certificates_08Techsolutions-
+```
+
+### Install Requirements
+
+```bash
+pip install -r requirements.txt
+```
+
+### Run
+
+```bash
+streamlit run main.py
+```
+
+---
+
+# 📄 CSV Format
+
+```
+Name,Drive_Link
+Rohit Tayade,https://drive.google.com/file/d/....
+Anushka Gulhane,https://drive.google.com/file/d/....
+```
+
+---
+
+# 🌐 Live Demo
+
+https://campus-hvpmcoet.streamlit.app
+
+---
+
+# 💻 GitHub Repository
+
+https://github.com/RohitTayade555/GFG_Certificates_08Techsolutions-
+
+---
+
+# 🎯 Future Improvements
+
+- Mobile Number Search
+- Certificate Verification
+- QR Code Verification
+- Admin Dashboard
+- Bulk Certificate Upload
+- Event Management
+
+---
+
+# 🤝 Contributing
+
+Contributions are welcome.
+
+Fork the repository, make improvements, and create a Pull Request.
+
+---
+
+# 👨‍💻 Developed By
+
+**Rohit Prakash Tayade**
+
+Campus Mantri @ GeeksforGeeks
+
+HVPM COET, Amravati
