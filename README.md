@@ -84,8 +84,6 @@ https://campus-hvpmcoet.streamlit.app
 
 https://github.com/RohitTayade555/GFG_Certificates_08Techsolutions-
 
----
-
 # 🎯 Future Improvements
 
 - Mobile Number Search
@@ -95,7 +93,6 @@ https://github.com/RohitTayade555/GFG_Certificates_08Techsolutions-
 - Bulk Certificate Upload
 - Event Management
 
----
 
 # 🤝 Contributing
 
