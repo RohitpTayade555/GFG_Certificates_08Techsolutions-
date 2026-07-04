@@ -33,10 +33,8 @@ This significantly reduces manual work and makes certificate distribution fast a
 ---
 
 # 📸 Screenshot
-
-> Replace this image with your own screenshot.
-
-![Certificate Portal](assets/screenshot.png)
+<img width="1919" height="1031" alt="image" src="https://github.com/user-attachments/assets/77680575-45db-46ad-9c44-fdb2a44cca09" />
+<img width="1919" height="1031" alt="image" src="https://github.com/user-attachments/assets/82c8363f-7a31-4b7e-b33a-7650b032a23f" />
 
 ---
 
