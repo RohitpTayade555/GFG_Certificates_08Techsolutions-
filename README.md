@@ -127,7 +127,7 @@ https://github.com/RohitTayade555/GFG_Certificates_08Techsolutions-
 ---
 
 # 🎯 Future Improvements
-
+....!!!1
 - Mobile Number Search
 - Certificate Verification
 - QR Code Verification
@@ -152,3 +152,4 @@ Fork the repository, make improvements, and create a Pull Request.
 Campus Mantri @ GeeksforGeeks
 
 HVPM COET, Amravati
+Originally developed while serving as a Campus Mantri at GeeksforGeeks and later customized for HVPM COET.
