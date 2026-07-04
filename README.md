@@ -1,40 +1,82 @@
-# 🏆 GFG Campus Body Certificate Distribution Portal
+# 🎓 HVPM COET Certificate Portal
 
-An interactive, fast, and secure web application built with Python and Streamlit to distribute event certificates to participants. This portal allows participants to search for their name, preview their official certificate instantly in a high-definition PDF viewer, and securely download it directly to their device.
-
----
-
-## ✨ Features
-
-- **Instant Search & Selection:** Cleans and formats name data dynamically into an alphabetical, user-friendly dropdown search bar.
-- **Embedded PDF Preview Pane:** Uses an elegant, secure inline frame layout to let users view their certificates before downloading, bypassing strict browser data URL blocks.
-- **Robust Google Drive Integration:** Smartly converts standard sharing URLs into clean direct-stream downloads and interactive previews.
-- **Fail-Safe Warning Protection:** Automatically detects if Google Drive presents an internal virus block, authentication request, or login page wall, providing a smart direct-link fallback button for affected users.
-- **Error-Resistant Data Imports:** Cleans trailing whitespaces, filters empty rows, and protects against data type conversion crashes (`float` vs `str`) dynamically.
+A simple and efficient Certificate Distribution Portal built using **Python** and **Streamlit** to automate certificate sharing for workshops, seminars, hackathons, and college events.
 
 ---
 
-## 🛠️ Tech Stack & Dependencies
+## 📌 Problem Statement
 
-The project utilizes modern Python tools managed with the lightning-fast `uv` or `pip` toolchains:
+During my tenure as a **Campus Mantri at GeeksforGeeks**, I observed that certificate distribution after events was completely manual.
 
-- **[Streamlit](https://streamlit.io/)** (v1.58.0+) - Frontend UI layout framework.
-- **[Pandas](https://pandas.pydata.org/)** (v3.0.3+) - Data structuring and CSV cleanup pipelines.
-- **[Requests](https://requests.readthedocs.io/)** (v2.34.2+) - Secure file stream downloading from external networks.
+Coordinators had to:
+- Search each student's certificate manually.
+- Share Google Drive links individually.
+- Respond to repeated messages like:
+  - "Sir, I didn't receive my certificate."
+  - "Can you send my certificate again?"
+  - "The certificate link is not opening."
+
+This process became difficult and time-consuming, especially when distributing certificates to hundreds of participants.
+
+To solve this problem, I built this Certificate Distribution Portal.
 
 ---
 
-## 📂 Project Structure
+## 🚀 Solution
 
-```text
-gfg_certificates-main/
+The portal allows participants to search their name and instantly download their certificate without contacting the event coordinator.
+
+Certificates are securely stored on Google Drive, and the application fetches the correct certificate automatically.
+
+This significantly reduces manual work and makes certificate distribution fast and hassle-free.
+
+---
+
+# 📸 Screenshot
+
+> Replace this image with your own screenshot.
+
+![Certificate Portal](assets/screenshot.png)
+
+---
+
+# ✨ Features
+
+- Search certificate by participant name
+- Instant certificate preview
+- One-click certificate download
+- Google Drive integration
+- Simple and responsive UI
+- Easy to customize for any college or organization
+
+---
+
+# 🛠 Tech Stack
+
+- Python
+- Streamlit
+- Pandas
+- Requests
+- Pillow
+- Google Drive
+- GitHub
+
+---
+
+# 📂 Project Structure
+
+```
+.
 ├── assets/
-│   └── favicon.png          # App icon accent
-├── certificates.csv         # Spreadsheet matching participant names to Drive links
-├── main.py                  # Main operational Streamlit application script
-├── pyproject.toml           # Modern package configuration metadata
-├── uv.lock                  # Pinned deterministic dependencies
-└── README.md                # System documentation
+│   ├── favicon.png
+│   └── screenshot.png
+├── certificates.csv
+├── main.py
+├── requirements.txt
+└── README.md
+```
+
+---
 
 # ⚙️ How to Run
 
@@ -84,6 +126,8 @@ https://campus-hvpmcoet.streamlit.app
 
 https://github.com/RohitTayade555/GFG_Certificates_08Techsolutions-
 
+---
+
 # 🎯 Future Improvements
 
 - Mobile Number Search
@@ -93,6 +137,7 @@ https://github.com/RohitTayade555/GFG_Certificates_08Techsolutions-
 - Bulk Certificate Upload
 - Event Management
 
+---
 
 # 🤝 Contributing
 
